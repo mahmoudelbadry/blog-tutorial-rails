@@ -8,7 +8,7 @@ development:
   encoding: utf8
   database: blog_tutorial
   pool: 5
-  username: 
+  username: root 
   password: 
   socket: /tmp/mysql.sock
 # Warning: The database defined as "test" will be erased and
