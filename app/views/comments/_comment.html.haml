@@ -4,3 +4,7 @@
 %p
   %b Comment:
   = comment.body
+%p
+  = link_to "Destroy Comment", [comment.post, comment],
+            :confirm => "Are You Sure?",
+            :method => :delete
