@@ -36,5 +36,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'activerecord-mysql2-adapter'
+gem 'mysql2'
 gem 'haml-rails'
