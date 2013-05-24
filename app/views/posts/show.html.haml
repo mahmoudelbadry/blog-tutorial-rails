@@ -9,6 +9,10 @@
 %p
   %b Content:
   = @post.content
+%p
+  %b Tags:
+  = @post.tags.map {|t| t.name }.join(",")
+
 
 %h2 Comments
 = render @post.comments
