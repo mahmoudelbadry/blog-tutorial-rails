@@ -11,8 +11,7 @@
   = @post.content
 %p
   %b Tags:
-  = @post.tags.map {|t| t.name }.join(",")
-
+  = join_tags(@post)
 
 %h2 Comments
 = render @post.comments
